@@ -8,24 +8,20 @@ Prerequisites:
 4. PCA9685 16-channels 12-bit RC servo controller
 5. Cheap wireless (usb dongle/bluetooth) joystick/gamepad 
 
-Install dependencies:
+# Installation:
 
 Copy and paste the following commands in Terminal:
 
-
 1. Update your Pi libraries
-<code>sudo apt-get -y update && sudo apt-get -y upgrade</code>
+
+`sudo apt-get -y update && sudo apt-get -y upgrade`
 
 2. Download & install ZeroBorg libraries
-<code> mkdir ~/zeroborg </code>
-  
-  cd ~/zeroborg
-  
-  wget http://www.piborg.org/downloads/zeroborg/examples.zip
-  
-  unzip examples.zip
-  
-  chmod +x install.sh
-  
-  ./install.sh
-</code>
+
+``` mkdir ~/zeroborg
+    cd ~/zeroborg
+    wget http://www.piborg.org/downloads/zeroborg/examples.zip
+    unzip examples.zip 
+    chmod +x install.sh
+    ./install.sh
+```
