@@ -1,5 +1,6 @@
 # zerobot
 Gamepad-controlled Pi Zero W robot with servo-gripper/claw
+![joystick](https://github.com/rtxsc/zerobot/blob/master/images/2A944D83-D702-4C6A-9C70-55236CA0A1AE.jpeg)
 
 Prerequisites:
 1. Pi Zero W/Pi 3
