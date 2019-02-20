@@ -25,3 +25,47 @@ Copy and paste the following commands in Terminal:
     chmod +x install.sh
     ./install.sh
 ```
+3. Install Adafruit PCA9685 library
+
+``` 
+sudo apt-get install git build-essential python-dev
+cd ~
+git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
+cd Adafruit_Python_PCA9685
+sudo python setup.py install
+
+```
+
+4. Install Adafruit SSD1306 library
+
+```
+sudo python -m pip install --upgrade pip setuptools wheel
+cd ~
+git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
+cd Adafruit_Python_SSD1306
+sudo python setup.py install
+
+```
+
+5. Install INA219 library (optional)
+
+```
+sudo pip install pi-ina219
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
